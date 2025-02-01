@@ -1,0 +1,27 @@
+#outline{
+    outline-width: 10px;
+    border-width: 10px;
+    outline-style: double;
+    border-style: solid;
+    outline-color: blue;
+    border-color: red;
+
+    border: 10px solid salmon;
+    outline: 10px dashed maroon;
+    
+}
+
+#outline2{
+    outline-width: 10px;
+    border-width: 10px;
+    outline-style: double;
+    border-style: solid;
+    outline-color: blue;
+    border-color: red;
+
+    border: 10px solid salmon;
+    outline: 10px dotted seagreen;
+    
+}
+
+

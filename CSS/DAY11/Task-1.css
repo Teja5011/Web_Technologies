@@ -1,0 +1,10 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#contaniner{
+    width: 600px;
+    height: 600px;
+    background-color: red;
+}

@@ -1,0 +1,69 @@
+*{
+    padding: 0%;
+    margin: 0px;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: radial-gradient(circle at top left ,rgb(17, 45, 123) 0% 20%,rgba(0, 0, 0, 0.396) 40% 100%)
+
+}
+
+fieldset{
+    width: 40vw;
+    height: 25vw;
+    margin-top: 10%;
+    margin-left: 30%;
+    background-image: url(../../ASSERTS/IMAGES/charimar.jpg),linear-gradient(purple,red);
+    background-size: 50%, 100%, 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: 15px groove royalblue;
+}
+
+fieldset:hover{
+    background-size: 30%,100% 100%;
+    background-position: left center;
+}
+
+legend{
+    font-size: 3vw;
+    color: white;
+    border: 3px solid royalblue;
+    padding: 0vw 2vw;
+    background-color: blanchedalmond;
+    border-radius: 5px;
+    color: dimgrey;
+}
+
+h1{
+    color: transparent;
+    text-align: right;
+    padding-right: 10%;
+    text-transform: uppercase;
+}
+
+p{
+    width: 50%;
+    float: right;
+    padding-right: 2%;
+    text-align: justify;
+    font-weight: bold;
+    color: rgba(225, 225, 225, 0);
+}
+
+fieldset:hover h1{
+    color: orange;
+    text-shadow: 0.5px,0.5px,0.5px black;
+}
+
+fieldset:hover p{
+    color: white;
+
+}
+
+fieldset:hover legend{
+    text-align: center;
+    color: brown;
+}

@@ -1,0 +1,141 @@
+/* BOTH IN PIXELS */
+/* div{
+    width: 1000px;
+    height: 1000px;
+    background-color: brown;
+} */
+
+/* WE CANNOT DECIDE HEIGHT IN %  */
+/* div{
+    width: 30%;
+    height: 300px;
+    background-color: rgb(207, 112, 112)
+} */
+
+/* BOTH IN %, BODY AS PARENT */
+/* body{
+    width: 50%;
+    height: 300px;
+    background-color: aqua;
+}
+
+div{
+    width: 100%;
+    height: 100%;
+    background-color: bisque;
+} */
+
+/* -------------------------------------------------------------------------------------------------------------------------------- */
+
+/* body{
+    width: 50%;
+    height: 300px;
+    background-color: aqua;
+} */
+
+/* #parent{
+    width: 100%;
+    height: 100%;
+    height: 700px;
+    background-color: red;
+}
+
+#child{
+    width: 50%;
+    height: 50%;
+    background-color: yellow;
+} */
+
+/* -------------------------------------------------------------------------------------------------------------------------------0 */
+
+                                                /*  ABSOLUTE UNITS */
+#pixels{
+    width: 400px;
+    height:80px;
+    background-color: rgb(149, 0, 255);
+    font-size: 50px;
+    color: moccasin;
+}
+
+#inches{
+    width: 600px;
+    /* width: 10in; */
+    height:0.8in;
+    background-color: rgb(255, 0, 17);
+    font-size: 50px;
+    color: moccasin;
+}
+
+#centimetres{
+    width: 800px;
+    /* width: 20cm; */
+    height:1.9cm;
+    background-color: rgb(85, 255, 0);
+    font-size: 50px;
+    color: moccasin;
+}
+
+#millimeters{
+    width: 600px;
+    /* width: 149mm; */
+    height:18mm;
+    background-color: rgb(255, 196, 0);
+    font-size: 50px;
+    color: moccasin;
+}
+
+#points{
+    width: 400px;
+    /* width: 300pt; */
+    height:50pt;
+    background-color: rgb(255, 77, 0);
+    font-size: 50px;
+    color: moccasin;
+}
+
+#pics{
+    width: 200px;
+    /* width: 20pc; */
+    height:4pc;
+    background-color: rgb(255, 0, 0);
+    font-size: 50px;
+    color: moccasin;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------ */
+                                                /* RELATIVE UNITS  */
+#percentage{
+ width: 100%;
+ height:100px;
+ background-color: rgb(44, 165, 42);
+ font-size: 50px;
+ color: moccasin;
+}
+
+#vw_vh{
+    width: 100vw;
+    height:100vh;
+    background-color: brown;
+    font-size: 60px;
+    color: moccasin;
+}
+
+#vw{
+    width: 100vw;
+    height:100vw;
+    background-color: rgb(42, 165, 130);
+    font-size: 50px;
+    color: moccasin;
+}
+
+#vh{
+    width: 100vh;
+    height:100vh;
+    background-color: rgb(165, 42, 83);
+    font-size: 50px;
+    color: moccasin;
+   }
+
+
+
+

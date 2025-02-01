@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    border: 0px;
+}
+
+body{
+    background-color: black;
+}
+
+#ab{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../../ASSERTS/IMAGES/mountainLeft.png),
+                      url(../../ASSERTS/IMAGES/mountainRight.png),
+                      url(../../ASSERTS/IMAGES/mountainLeft.png),
+                      url(../../ASSERTS/IMAGES/mountainRight.png),
+                      url(../../ASSERTS/IMAGES/moon-removebg-preview.png),
+                      url(../../ASSERTS/IMAGES/space.jpg);
+
+    background-repeat: no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,repeat;
+    background-size: 75%,50%,75%,50%,30%,100%;
+    background-position: -500px 250px, 150px 350px,850px 250px, 650px 400px, 550px 900px, 400px 500px;
+    transition: all 2s;
+}
+
+#ab:hover {
+    background-size: 55%,35%, 55%,35% ,20% ,100%;
+    background-position: -330px 320px, 300px 480px, 1000px 320px, 800px 480px,550px 0px, center ;
+}
+
+h1{
+    font-size: 80px;
+    color: white;
+    padding-left: 35%;
+    padding-top: 22%;
+    font-family: cursive;
+    text-shadow: 10px 10px 15px red, -10px -10px 15px blue;
+    transform: scale(0) rotateX(175dg) rotateY(175deg) rotate(360deg);
+    transition: all 2s;
+}
+
+#ab:hover h1{
+    transform: scale(1) rotateX(0deg) rotateY(0deg) rotate(360deg);
+}

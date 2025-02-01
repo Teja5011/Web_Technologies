@@ -1,0 +1,36 @@
+#container{
+
+    width: 700px;
+    height: 800px;
+     background-color: maroon; 
+       
+  }
+
+  marquee{
+    width: 100px;
+    height: 800px;
+  }
+
+  h1{
+    font-size: 180px;
+
+ }
+
+ .blue{
+    color: blue;
+}
+
+.red{
+    color: red;
+}
+
+#orange{
+    color: orange;
+
+}
+
+#green{
+    color: green;
+}
+
+

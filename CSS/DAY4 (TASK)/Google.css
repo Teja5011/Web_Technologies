@@ -1,0 +1,32 @@
+#container{
+   width: 600px;
+   height: 400px;
+    /* background-color: lawngreen; */
+ }
+
+ search
+
+ h1{
+    font-size: 180px;
+    float: left;
+ }
+    
+.blue{
+    color: blue;
+}
+
+.red{
+    color: red;
+}
+
+#orange{
+    color: orange;
+
+}
+
+#green{
+    color: green;
+}
+
+
+

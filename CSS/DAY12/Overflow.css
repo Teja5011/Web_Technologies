@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+img{
+    width: 900px ;
+}
+
+#container{
+    width: 40%;
+    height: 400px;
+    background-color: red;
+
+    overflow-y: visible;
+    overflow-y: scroll;
+    overflow-y: hidden;
+    overflow-y: auto;
+    overflow-x: visible;
+    overflow-x: scroll;
+    overflow-x: hidden;
+    overflow-x: auto;
+}
+
+
+

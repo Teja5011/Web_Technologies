@@ -1,0 +1,88 @@
+#grandfather{
+    width: 100%;
+    height: 800px;
+    background-color: olive;
+    font-size: 20px;
+    border: 5px solid black;
+}
+
+#father,#babai{
+    width: 45%;
+    height: 80%;
+    background-color: orange;
+    float: left;
+    border: 5px solid black;
+}
+
+#sibiling,#you,#cousin1,#cousin2{
+    width: 41%;
+    height: 80%;
+    background-color: beige;
+    float: left;
+    border: 5px solid black;
+}
+
+#you{
+    background-color: red;
+}
+
+#cousin1{
+    background-color: lightcoral;
+}
+#cousin2{
+    background-color: lightslategray;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------- */
+/* DESCENDENT SELECTOR  (SPACE) */
+
+/* #grandfather #father{
+    background-color: aqua;
+}
+
+#grandfather #babai{
+    background-color: blue;
+} */
+
+/* #grandfather #father,#babai{
+    background-color: lightgoldenrodyellow ;
+}
+
+#grandfather #sibiling,#you,#cousin1,#cousin2{
+    background-color: wheat;
+}
+
+#father #sibiling,#you{
+    background-color: maroon;
+}
+
+#babai #cousin1,#cousin2{
+    background-color: mediumpurple;
+}
+
+#father #cousin1{
+    background-color: mediumseagreen;
+}
+
+#babai #cousin1{
+    background-color: mediumvioletred;
+} */
+
+/* ------------------------------------------------------------------------------------------------------------------------------- */
+/* CHILD SELECTOR (>) */
+
+#grandfather>#father,#babai{
+    background-color: forestgreen;
+}
+
+#father>#sibiling,#you{
+    background-color: red;
+    color: white;
+    height: 70%;
+}
+
+#babai>#cousin1,#cousin2{
+    background-color: aqua;
+    color: white;
+    height: 70%;
+}

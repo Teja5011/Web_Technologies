@@ -1,0 +1,41 @@
+syntax: selector[attributename]{
+                        property:value:
+                                }
+
+a[href]{
+    background-color: red;
+    color: white;
+}
+
+a[target]{
+    background-color: black;
+    color: green;
+    font-size: 40px;
+}
+
+h1[id]{
+    background-color: magenta;
+}
+
+h1[class]{
+    background-color: maroon;
+}
+
+h1[style]{
+    background-color: blueviolet;
+}
+
+h1[class],p[class],h1[id]{
+    background-color: yellow;
+    color: aliceblue;
+}
+
+p[id]{
+    background-color: red;
+    font-size: 45px;
+}
+
+p[class]{
+    background-color: chocolate;
+    font-size: 35px;
+}

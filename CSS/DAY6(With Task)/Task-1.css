@@ -1,0 +1,19 @@
+body{  
+    width: 100%;
+    height: 5000px;
+    background: url(../../ASSERTS/IMAGES/sun-11582_1280-removebg-preview.png),url(../../ASSERTS/IMAGES/globe.jpg.png),url(../../ASSERTS/IMAGES/universe.jpg);
+    background-repeat: no-repeat,no-repeat,no-repeat;
+    background-size: 50%,20%,100% 5000px;
+    background-attachment: fixed,scroll,scroll;
+    background-position: -250px -250px,center,center;
+}
+
+img{
+    float: right;
+    height: 300px;
+}
+
+marquee{
+    height: 3000px;
+}
+

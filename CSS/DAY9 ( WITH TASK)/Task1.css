@@ -1,0 +1,17 @@
+#container{
+  background: url(../../ASSERTS/IMAGES/audi\ car.jpeg);
+  background-repeat: no-repeat;
+  background-size: 400px;
+  width: 20vw;
+  height: 10vh;
+  /* border: 2px solid black; */
+  padding: 100px 100px 100px 100px;
+  margin: 200px 200px;   
+}
+
+
+h1{
+  width: 10vw;
+  height: 20vh;
+  
+}

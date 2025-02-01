@@ -1,0 +1,81 @@
+/* universal selector is represented *
+
+*{
+    background-color: lawngreen; 
+    color: red;
+    font-size: 40px;
+} */
+
+/* -------------------------------------------------------------------------------------------------------------------------------- */
+
+  /* Tagname selector*/
+/* body{
+    background-color: red;
+}
+
+h1{
+    background-color: slateblue;
+    width: 50%;
+}
+
+p{
+    background-color: gray;
+    width: 70%;
+} */
+
+/* -------------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* Id Selector */
+/* syntax: #idvalue{
+                  property:value
+            }
+h1{
+    background-color: darkred;
+}
+
+#head1{
+    background-color:darkkhaki;
+    width: 70%;
+    font-size: 50px;
+}
+
+#head2{
+    background-color: aqua;
+    width: 70%;
+    font-size: 50px;
+}
+
+#para3{
+    background-color: darkmagenta;
+    width: 100%;
+    font-size: 50px;
+} */
+
+/* --------------------------------------------------------------------------------------------------------------------------------- */
+
+/* class selector */
+/* syntax: .class value{
+        proprerty value
+}
+
+.a1{
+    background-color: blueviolet;
+    width: 70%;
+    font-size: 30px;
+}
+
+.a3{
+    background-color: darkcyan;
+    width: 90%;
+    font-size: 30px;
+} */
+
+/* --------------------------------------------------------------------------------------------------------------------------------- */
+
+/* GROUP SELECTOR */
+p,#head2,.a3{
+    background-color: aqua;
+    font-size: 50px;
+    color: red;
+}

@@ -1,0 +1,62 @@
+body{
+    background-color: lightcoral;
+}
+
+input{
+    background-color: yellow;
+    width: 300px;
+    background-color: transparent;
+} */
+
+body{
+    
+    /* background-image: url(../../ASSERTS/IMAGES/nature.jpg);  */
+    /* background-image: url(https://cdn.pixabay.com/photo/2015/10/16/11/40/tarot-991041_640.jpg); 
+    background-repeat: no-repeat; 
+    background-repeat: repeat;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-repeat: no-repeat; */
+
+    background-size: auto;
+    background-size: contain;
+    background-size: cover;
+    background-size: 500px;
+    background-size: 50%;
+    background-size: 300px,300px; 
+
+    height: 500px; 
+    background-color: red;
+    background-position: center;
+    background-position: left;
+    background-position: right;
+    background-position: top;
+    background-position: bottom;
+    background-position: top left;
+    background-position: top center;
+    background-position: top right;
+    background-position: center left;
+    background-position: center right;
+    background-position: bottom left;
+    background-position: bottom right;
+
+                                                                            
+    background-position: top left;                                        
+    background-position: 300px;                                 
+    background-position: 500px 300px;                                    
+    background-position: -100px -100px;
+    background-position: -50px -50px;                                      
+    background-position-x: 500px;
+    background-position-y: 300px ;
+
+    height: 2000px;
+    background-attachment: scroll;
+    background-attachment: local;
+    background-attachment: fixed;
+}
+
+div{
+  width: 500px;
+  height: 500px;
+   background: yellowgreen url(../../ASSERTS/IMAGES/river.jpg) scroll no-repeat center;
+}
