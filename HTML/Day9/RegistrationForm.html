@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGN UP</title>
+</head>
+<body>
+
+                            <!-- DESCRIPTION -->
+    <fieldset style="width: 30%;  border: 5px solid black;">
+    <p style="color: red;">
+    <b>HTML FORM IS USED COLLECT DATA FROM THE USER AND STORE THE DATA IN THE SEVER <br>
+    HTML FORM REQUIRES 2 ARE: <br>
+    1)LABEL TAG <br>
+    2)INPUT TAG <br>
+    TAGS USED TASK-1: LABEL,INPUT,FORM,REQUIRED,FIELD SET </b>
+    TAGS USED TASK-2: PLACE HOLDER,DATE,MIN LENGTH,MAX LENGTH,
+    TYPE TAGS: PATTERN,RADIO,FILE,IMAGE
+    </p>
+    </fieldset>
+    <hr><hr><hr>
+
+<!-- ----------------------------------------------------------------------------------------------------------------------------- -->
+                            <!-- TYPE-1:FORM 1 -->
+                             <br>
+
+    <fieldset style="width: 10%;  border: 5px solid black;">
+    <form action="../DAY1/ParagraphTag.html">
+        <legend><h1>Form 1</h1></legend>
+
+        <label for="name">USER NAME:</label>
+        <input type="text" id="name" required><sup style="color: red;">*</sup> <br><br>
+    
+        <label for="pass">PASSWORD:</label>
+        <input type="password" id="pass" required><sup style="color: red;">*</sup> <br> <br>
+
+        <input type="submit">
+    </form>
+    </fieldset> 
+    <br> 
+    <hr><hr> <hr>
+<!-- ----------------------------------------------------------------------------------------------------------------------------- -->
+                                       
+                                        <!-- TASK-2 : REGISTRATION FORM -->
+
+    <fieldset style="width: 50%;  border: 5px double black;">
+    <form action=""></form>
+        <legend><h1>APPLICATION FORM</h1></legend>
+
+        <label>FIRST NAME:</label> <sup style="color: red;">*</sup>
+        <input type="text" id="name" required placeholder="first name" minlength="3" maxlength="15">
+        <br>
+
+        <label>LAST NAME:</label> <sup style="color: red;">*</sup>
+        <input type="text" id="name" required placeholder="last name">
+        <br>
+
+        <label for="email">EMAIL:</label> <sup style="color: red;">*</sup>
+        <input type="text" id="email" required placeholder="email">
+        <br>
+
+        <label>PASSWORD:</label> <sup style="color: red;">*</sup>
+        <input type="text" id="pass" required placeholder="password">
+        <br>
+
+        <label>MOBILE_NUMBER:</label> <sup style="color: red;">*</sup>
+        <input type="tel" required placeholder="mobile number" pattern="[0-9]{10}">
+        <br>
+
+        <label>DOB:</label>
+        <input type="date" id="date" min="2002-01-01" max="2029-12-12">
+        <br>
+
+        <label>AGE:</label>
+        <input type="number" min="18" max="60"> 
+         <br>
+
+         <label>GENDER</label>
+         <input type="radio" name="gen">MALE
+         <input type="radio" name="gen">FEMALE
+         <input type="radio" name="gen">OTHERS
+         <br>
+
+        <label>SKILLS</label>
+        <input type="checkbox">Web technology
+        <input type="checkbox" disabled>Java
+        <input type="checkbox">SQL
+        <input type="checkbox">Python 
+        <br>
+
+        <label> RESUME</label><sup style="color: red;">*</sup>
+        <input type="file" required>
+        <br>
+
+        <label>IMAGE</label> <sup style="color: red;">*</sup>
+        <input type="file" required> 
+        <br>
+
+        <label>IMAGE</label> <sup style="color: red;">*</sup>
+        <input type="image" src="../../ASSERTS/IMAGES/nature.jpg"  style="width: 50px;"  required> 
+        <br>
+
+        <label for="">States:</label><sup style="color: red;">*</sup>
+        <select>
+            <option value="States" hidden>select your state</option>
+            <option value="state1">Andra pradesh</option>
+            <option value="state2">Telagana</option>
+            <option value="state3">Kerala</option>
+            <option value="state4">Tamil Nadu</option>
+            <option value="state4">Karnataka</option>
+        </select>
+        <br>
+
+       <select>
+        <option value="States">SELECT YOUR STATE</option>
+        <optgroup  label="AP">
+            <option value="">viskapatanam</option>
+            <option value="">vijayawada</option>
+            <option value="">vizayanagaram</option>
+            <option value="">srikalulam</option>
+        </optgroup>
+
+        <optgroup  label="Telagana">
+            <option value="">Khammam</option>
+            <option value="">karimanagar</option>
+            <option value="">warangal</option>
+        </optgroup>
+        </select>
+        <br> 
+
+        <label>Address:</label>
+        <textarea cols="30" rows="10"></textarea>
+        <br> <br>
+
+        <input type="checkbox" required><sup style="color: red;">*</sup>I Agree all the terms and conditions 
+        <br>
+
+        <input type="submit">
+        <input type="reset" value="clear">
+        <input type="submit" value="login">
+        <br>
+    </fieldset>
+    <hr><hr><hr>
+
+    <!-- ------------------------------------------------------------------------------------------------------------------------- -->
+    
+
+    <fieldset style="width: 20%; border: 2px double black;">
+        <input type="week"> <br> 
+        <input type="range"> <br>
+        <input type="color"> <br>
+        <input type="month"> <br>
+    </fieldset>
+
+
+
+</body>
+</html>

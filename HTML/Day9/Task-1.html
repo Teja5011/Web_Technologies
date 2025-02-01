@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+</head>
+<body>
+
+      <center>
+        <fieldset style="border: 5px solid red;width: 40%;background-color: aqua;height: 700px;">
+            <legend><h1 style="font-size: 50px;background-color: lightcoral;"><u>HTML Form</u></h1></legend>
+
+
+        <table style="border: 2px solid;border-collapse: collapse;width: 400px;background-color: lightpink;">
+            <br>
+           <tr>
+             <th><b>Username</b></th>
+             <th><b>:</b></th>
+             <th><input type="text" placeholder="enter ur username"  minlength="3" maxlength="15">*</th>
+             
+           </tr>
+
+           <tr>
+            <th><b>Password</b></th>
+            <th><b>:</b></th>
+            <th><input type="password" placeholder="enter ur password"  minlength="10" maxlength="12">*</th>
+          </tr>
+
+          <tr>
+            <th><b>Email_id</b></th>
+            <th><b>:</b></th>
+            <th><input type="email" placeholder="enter ur email">*</th>
+          </tr>
+
+          <tr>
+            <th><b>Mobile_Number</b></th>
+            <th><b>:</b></th>
+            <th><input type="tel" placeholder="enter ur mobile number" pattern="[0-9]{10}">*</th>
+          </tr>
+
+          <tr>
+            <th><b>Date of Birth</b></th>
+            <th><b>:</b></th>
+            <th><input type="date" min="2002-01-01" max="2029-12-12">*</th>
+          </tr>
+            
+          <tr>
+            <th><b>Age</b></th>
+            <th><b>:</b></th>
+            <th><input type="number" placeholder="enter ur age" min="18" max="60">*</th>
+          </tr>
+          
+          <tr>
+            <th><b>Gender</b></th>
+            <th><b>:</b></th>
+            <td>
+                <input type="radio" name="gen">Male
+                <input type="radio" name="gen">Female
+                <input type="radio" name="gen">Others
+            </td>
+          </tr>
+
+          <tr>
+            <th><b>Skills</b></th>
+            <th><b>:</b></th>
+            <td>
+                <input type="checkbox">WEB
+                <input type="checkbox">SQL
+                <input type="checkbox">PYTHON
+            </td>
+        </tr>
+
+            <tr>
+            <th><b>States</b></th>
+            <th><b>:</b></th>
+            <th>
+                <select>
+                    <option value="States" hidden>select your state</option>
+                    <option value="state1">Andra pradesh</option>
+                    <option value="state2">Telagana</option>
+                    <option value="state3">Kerala</option>
+                    <option value="state4">Tamil Nadu</option>
+                    <option value="state4">Karnataka</option>
+                </select>
+            </th>
+            </tr>
+
+
+            <tr>
+            <th><b>Districts</b></th>
+            <th><b>:</b></th>
+            <th>
+            <select>
+                <option value="Districts">Select ur districts</option>
+                <optgroup  label="AP">
+                    <option value="">viskapatanam</option>
+                    <option value="">vijayawada</option>
+                    <option value="">vizayanagaram</option>
+                    <option value="">srikalulam</option>
+                </optgroup>
+
+                <optgroup  label="Telagana">
+                    <option value="">Khammam</option>
+                    <option value="">karimanagar</option>
+                    <option value="">warangal</option>
+                </optgroup>
+                </select>
+            </th><br>
+
+            <tr>
+                <th><b>Image</b></th>
+                <th><b>:</b></th>
+                <th>
+                    <label>
+                        <img src=".././../ASSERTS/IMAGES/river.jpg" alt="nature" style="width: 100px;">
+                    </label>
+                </th>
+            </tr>
+
+            <tr>
+                <th><b>Address</b></th>
+                <th><b>:</b></th>
+                <th>
+                <textarea cols="30" rows="10"></textarea>
+                <br> <br>
+                </th>
+            </tr>
+
+               <tr>
+
+                <th></th>
+                <th><input type="submit"></th>
+                <th></th>
+               </tr>  
+        </table>
+        </center>
+        </fieldset>
+    </fieldset>
+    
+</body>
+</html>
