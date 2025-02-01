@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: lime;
+}
+
+#container{
+    width: 400px;
+    height: 400px;
+    background-color: peachpuff;
+    margin-top: 10%;
+    margin-left: 33%;
+    border: 5px solid black;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px red, -10px -10px 10px blue;
+}
+
+#container:hover{
+    background-image: radial-gradient(skyblue,lime);
+}
+
+h1{
+    text-align: center;
+    padding-top: 11%;
+    font-size: 50px;
+    font-family: cursive;
+    font-weight: 10px;
+}

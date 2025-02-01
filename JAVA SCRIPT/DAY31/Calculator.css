@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{    
+    height: 100vh;
+    background-image: conic-gradient(orangered,purple,green,peachpuff,red,blue);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+}
+
+.container{
+    width: 30%;
+    height: 90%;
+    display: flex;
+    /* background-image: ; */
+    margin-top: 5%;
+    margin-left: 35%;
+}
+
+.calculator{
+    height: 79vh;
+    width: 80%;
+    border-radius: 10px;
+    background-color: yellowgreen;
+    box-shadow: 10px 10px 10px lightslategray, -10px -10px 10px lavender;
+}
+
+.calculator form input{
+    border: 0;
+    outline: 0;
+    width: 80px;
+    height: 80px;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 3px;
+    border-radius: 10px;
+}
+
+.calculator form input#equal{
+    background-color: green;
+    color: wheat;
+    width: 170px;
+}
+
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0px;
+}
+
+form .display input{
+    flex: 2;
+    color: black;
+    background-color: #0ef;
+}
+
+.calculator form input#equal:hover{
+    background-color: black;
+    color: wheat;
+    width: 180px;
+    font-family: cursive;
+}
+
+.calculator form input.number:hover{
+    background-color: black;
+    color: wheat;
+    font-family: cursive;
+}
+
+.calculator form input.symbol:hover{
+    background-color: black;
+    color: whitesmoke;
+    font-family: cursive;
+}
+
+.calculator form input.ac:hover{
+    background-color: black;
+    color: white;
+    font-family: cursive;
+}
+
+.calculator form input.del:hover{
+    background-color: black;
+    color: white;
+    font-family: cursive;
+}

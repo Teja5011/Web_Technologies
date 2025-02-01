@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS ATTRIBUTES</title>
+    <script src="./JsAttribute.js" defer></script>
+
+    <style>
+        table,td{
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+        input{
+            width: 95%;
+        }
+    </style>
+</head>
+<body>
+    <!-- <input>
+    <hr>
+
+    <input type="password" id="pass" oninput="fun()">
+    <br> <br>
+    <input type="button" value="login"  disabled id="button"> -->
+
+
+    <form>
+        <table>
+           
+            <tr>
+                <th colspan="2">Form</th>
+            </tr>
+            <tr>
+              <th><input type="text" placeholder="enter ur first name" id="fname" oninput="fun()"></th>
+              <td><input type="text" placeholder="enter ur last name"  id="lname" oninput="fun()"></td>
+              
+            </tr>
+                 
+            <tr>
+             <td colspan="2"><input type="password" placeholder="enter ur password" id="pass" oninput="fun()"></td>
+            </tr>
+     
+            <tr>
+              <td colspan="2"><input type="password" placeholder="conform ur password" id="cpass" oninput="fun()"></td>
+            </tr>
+     
+            <tr>
+             <td colspan="2"><input type="tel" placeholder="enter ur number" id="mobile" oninput="fun()"></td>
+            </tr>
+
+            <tr>
+                <th colspan="2"><input type="button" value="submit" disabled id="button" oninput="fun()"></th>
+            </tr>
+        </table>
+    </form>
+    
+ 
+</body>
+</html>
