@@ -1,0 +1,50 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#container{
+    width: 70%;
+    height: 500px;
+    background-color: red;
+    margin-top: 5%;
+    margin-left: 14%;
+}
+
+#leftcontainer,#rightcontainer{
+    width: 50%;
+    height: 100%;
+    background-color: blue;
+    float: left;
+}
+
+#rightcontainer{
+    background-color: pink;
+}
+
+.leftcircle,.rightcircle{
+    width: 100px;
+    height: 100px;
+    background-color: orangered;
+    border-radius: 100%;
+    margin-top: 10%;
+}
+
+.rightcircle{
+    margin-left: 80%;
+    transition: back-ground-color 3s, transform 0.5s;
+}
+
+input{
+    width: 55%;
+    height: 50px;
+    color: white;
+   background-color: orangered;
+   border: none;
+   outline: none;
+   font-size: 35px;
+   letter-spacing: 5px;
+   font-weight: bolder;
+   margin-left: 24%;
+   margin-top: 1%;
+}

@@ -1,0 +1,48 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#container{
+    width: 400px;
+    height: 50px;
+    background-color: maroon;
+    margin-top: 20%;
+    margin-left: 35%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+}
+
+#eye{
+    width: 2.5vw;
+    float: right;
+    padding-right: 5px;
+    margin-top: 0.5vw;
+}
+
+input{
+    width: 80%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 30px;
+    color: blueviolet;
+}
+
+input::placeholder{
+    color:gray;
+    letter-spacing: 3px;
+    font-family: cursive;
+}
+
+#hi{
+    width: 500px;
+    height:600px;
+}
+
+#hii:hover{
+    width: 500px;
+    height: 600px;
+    background-image: url(../../ASSERTS/IMAGES/1.png);
+}
