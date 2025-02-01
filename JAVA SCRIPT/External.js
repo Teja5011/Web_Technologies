@@ -1,1 +1,0 @@
-document.getElementById("heading").innerHTML="This Is An External Js";
